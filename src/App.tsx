@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './styles/App.scss'
+import Header from './components/header/Header'
+import Home from './components/home/Home'
+import About from './components/about/About'
+import Skills from './components/skills/Skills'
+import Projects from './components/projects/Projects'
+import Resume from './components/resume/Resume'
+import Contact from './components/contact/Contact'
+import Footer from './components/footer/Footer'
+import GoToTop from './components/goToTop/GoToTop'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="text-[#1f2937] dark:text-[#fff] dark:bg-[#1f2937] duration-100">
+      <Header />
+      <Home />
+      <About />
+      <Skills />
+      <Projects />
+      <Resume />
+      <Contact />
+      <GoToTop />
+      <Footer />
+      <ToastContainer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
