@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.79be4692.css",
-    "main.js": "/portfolio/static/js/main.50ad24bf.js",
+    "main.js": "/portfolio/static/js/main.0cd9de95.js",
     "static/media/myBigImg.png": "/portfolio/static/media/myBigImg.be064b2e7ee7b23eb264.png",
     "static/media/profileImg.png": "/portfolio/static/media/profileImg.5eb28cd6513aa8c52a81.png",
     "static/media/testimonial.jpeg": "/portfolio/static/media/testimonial.361eb6a4726350fa998e.jpeg",
@@ -9,7 +9,7 @@
     "static/media/shoping-cart.jpeg": "/portfolio/static/media/shoping-cart.2f10906be37f9f3d7ef3.jpeg",
     "static/media/feedback-app.jpeg": "/portfolio/static/media/feedback-app.baf13ce8b15b9e073d9b.jpeg",
     "static/media/card-features.jpeg": "/portfolio/static/media/card-features.9d2fe457aff9f51cc2cd.jpeg",
-    "static/media/cv.pdf": "/portfolio/static/media/cv.42767ad7f72bfedb3429.pdf",
+    "static/media/cv.pdf": "/portfolio/static/media/cv.d35724187bc7bcc0c3ab.pdf",
     "static/media/Sofia-Regular.ttf": "/portfolio/static/media/Sofia-Regular.eb3c6380c556580d1e8f.ttf",
     "static/media/house-marketplace.jpeg": "/portfolio/static/media/house-marketplace.c4847a40784085f80abb.jpeg",
     "static/media/github-finder.jpeg": "/portfolio/static/media/github-finder.2cf045ba0db1b33d2133.jpeg",
@@ -17,10 +17,10 @@
     "static/media/CoolveticaRg-Regular.woff2": "/portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/portfolio/index.html",
     "main.79be4692.css.map": "/portfolio/static/css/main.79be4692.css.map",
-    "main.50ad24bf.js.map": "/portfolio/static/js/main.50ad24bf.js.map"
+    "main.0cd9de95.js.map": "/portfolio/static/js/main.0cd9de95.js.map"
   },
   "entrypoints": [
     "static/css/main.79be4692.css",
-    "static/js/main.50ad24bf.js"
+    "static/js/main.0cd9de95.js"
   ]
 }
