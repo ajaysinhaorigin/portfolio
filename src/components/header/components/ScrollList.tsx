@@ -9,10 +9,10 @@ function ScrollList({ showMenu, setShowMenu }: Props) {
   return (
     <>
       {!showMenu && (
-        <div className="fixed h-full w-full z-20 bg-[#1f2937] dark:bg-[#fff] text-center lg:hidden pb-12">
+        <div className="fixed h-screen w-screen z-50 bg-[#1f2937] dark:bg-[#fff] text-center lg:hidden pb-12">
           <div className="p-1">
             <AiOutlineClose
-              className="text-3xl text-[#1f2937] dark:text-[#fff] bg-[#fff] dark:bg-[#1f2937] rounded-full m-2 p-1"
+              className="text-3xl text-[#1f2937] dark:text-[#fff] bg-[#fff] dark:bg-[#1f2937] rounded-full m-4 p-1"
               onClick={() => setShowMenu(true)}
             />
           </div>

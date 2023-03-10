@@ -30,7 +30,7 @@ function GoToTop() {
           offset={-100}
           className="cursor-pointer"
         >
-          <div className="fixed bottom-5 lg:bottom-12 right-4 bg-gray-300 rounded-full p-2 text-lg lg:text-xl text-[#1f2937] dark:bg-gray-400">
+          <div className="z-20 fixed bottom-5 lg:bottom-12 right-4 bg-gray-300 rounded-full p-2 text-xl lg:text-xl text-[#1f2937] dark:bg-gray-400">
             <FaCaretUp />
           </div>
         </Scroll>
