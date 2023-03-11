@@ -1,4 +1,4 @@
-import useCustomFormHook from './customFormHook'
+import useCustomFormHook from '../../../hooks/customFormHook'
 
 function Form() {
   const { form, formError, sendEmail } = useCustomFormHook()

@@ -27,7 +27,7 @@ export const PorjectsData: ProjectsDataType[] = [
     name: 'Feedback-App',
     imgUrls: uiPics.FeedbackApp,
     description:
-      'Website that allows as to give the feedback and reating and perform all the curd operations.',
+      'Website that allows us to give the feedback and rating and perform all the curd operations.',
     techlonogies: 'ReactJs, TypeScript, CSS, json-server as backend',
     liveUrls: 'https://github.com/ajaysinhaorigin/feedback-app',
     codeUrls: 'https://github.com/ajaysinhaorigin/feedback-app',

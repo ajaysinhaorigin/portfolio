@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import { toast } from 'react-toastify'
-import { Validator } from '../../../utils/Validator'
+import { Validator } from '../utils/Validator'
 
 const errorState: errorType = {
   nameError: '',

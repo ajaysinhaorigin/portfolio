@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link as Scroll } from 'react-scroll'
 import ScrollList from './components/ScrollList'
-import useCustomTheme from './components/CustomThemeHook'
+import useCustomTheme from '../../hooks/CustomThemeHook'
 import { ScrollListData } from './ScrollListData'
 import HeaderLogo from './components/HeaderLogo'
 import ModeIcons from './components/ModeIcons'

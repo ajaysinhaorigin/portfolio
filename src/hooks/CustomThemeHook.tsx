@@ -1,5 +1,5 @@
 import { useEffect, useContext } from 'react'
-import { ThemeContext } from '../../../context/themeContext'
+import { ThemeContext } from '../context/themeContext'
 function useCustomTheme() {
   const { theme, setTheme } = useContext(ThemeContext)
   const element = document.documentElement
