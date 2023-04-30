@@ -18,7 +18,7 @@ function ProjectItem({
   return (
     <>
       <div className="max-w-[40rem] bg-[#fff] dark:bg-[#1f2937] shadow-xl">
-        <div className=" max-w-[40rem] max-h-[25rem]">
+        <div className="max-w-[40rem] max-h-[25rem]">
           <img src={imgUrls} alt="" className="w-full h-full" />
         </div>
 
