@@ -23,8 +23,8 @@ function ModeIcons({ theme, setTheme }: Props) {
           <button
             key={option.mode}
             onClick={() => setTheme(option.mode)}
-            className={`text-lg rounded-full mx-2 ${
-              theme === option.mode && 'text-yellow-300'
+            className={`text-lg rounded-full ${
+              theme !== option.mode && 'text-yellow-300'
             } `}
           >
             {theme !== option.mode && option.icon}
