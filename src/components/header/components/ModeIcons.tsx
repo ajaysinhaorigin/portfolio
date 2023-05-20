@@ -27,7 +27,7 @@ function ModeIcons({ theme, setTheme }: Props) {
               theme === option.mode && 'text-yellow-300'
             } `}
           >
-            {option.icon}
+            {theme !== option.mode && option.icon}
           </button>
         ))}
         <a

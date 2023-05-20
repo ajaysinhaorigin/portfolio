@@ -6,7 +6,7 @@ function Contact() {
   return (
     <>
       <Element name="Contact Me" className="container mx-auto">
-        <Heading heading="Contect Me" alignment="text-center mb-8" />
+        <Heading heading="Contact Me" alignment="text-center mb-8" />
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-between align-middle  px-5 xl:px-16 lg:px-14 md:px-8 mb-16 md:mb-20">
           <Greetings />
           <Form />

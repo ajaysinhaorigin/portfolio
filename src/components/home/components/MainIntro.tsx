@@ -48,7 +48,7 @@ function MainIntro() {
         </h1>
         <div className="text-sm md:text-base tracking-[2px]  lg:traking-[2px]">
           <p className="animated_text">
-            I am addicted with developing beautiful websites
+            I am addicted with developing beautiful web-applications
           </p>
         </div>
       </div>
