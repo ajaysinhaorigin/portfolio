@@ -32,7 +32,7 @@ function useCustomTheme() {
         onWindowMatch()
         break
     }
-  }, [theme])
+  })
 
   return { theme, setTheme }
 }
