@@ -1,5 +1,5 @@
 import { MdDownload } from 'react-icons/md'
-import Cv from '../../../assets/cv/cv.pdf'
+import Cv from '../../../assets/cv/Ajay Resume.pdf'
 function DownloadUrl() {
   return (
     <button className="mt-8 max-w-[16rem] mx-auto">
