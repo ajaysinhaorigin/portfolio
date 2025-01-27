@@ -1,11 +1,11 @@
 import { MdDownload } from 'react-icons/md'
-import Cv from '../../../assets/cv/Ajay Resume.pdf'
+import Cv from '../../../assets/cv/AJAY SINHA CV.pdf'
 function DownloadUrl() {
   return (
     <button className="mt-8 max-w-[16rem] mx-auto">
       <a
         href={Cv}
-        download={true}
+        download='AJAY SINHA CV.pdf'
         className=" flex justify-center text-lg font-medium px-6 py-1 border-[1px]   rounded-xl text-[#1f2937] border-[#1f2937] hover:bg-[#1f2937] hover:text-[#fff] dark:border-[#fff] dark:text-[#fff] dark:hover:bg-[#fff] dark:hover:text-[#1f2937] duration-200"
       >
         <p> Download CV</p>

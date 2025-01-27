@@ -23,7 +23,7 @@ export const PorjectsData: ProjectsDataType[] = [
     codeUrls: "https://github.com/ajaysinhaorigin/property-pulse",
   },
   {
-    id: 4,
+    id: 3,
     name: "Sketchboard",
     imgUrls: uiPics.Sketchboard,
     description:
