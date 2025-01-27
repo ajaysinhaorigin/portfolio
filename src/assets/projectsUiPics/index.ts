@@ -11,5 +11,6 @@ export const uiPics = {
   SteamifyImage,
   Sketchboard,
   Propertypulse,
-  CloudStore
+  CloudStore,
+
 }

@@ -13,7 +13,13 @@ function SkillItem({ item }: Props) {
       >
         <div className="flex p-3">
           <div className="pr-2">
-            <item.logo color={color} className="h-7 w-7" />
+            {typeof item.logo === "string" ? (
+              // Render as an image if it's a URL string
+              <img src={item.logo} alt="logo" className="h-7 w-7" />
+            ) : (
+              // Render as a React component if it's not a string
+              <item.logo color={color} className="h-7 w-7" />
+            )}
           </div>
           <p className="text-lg font-medium">{name}</p>
         </div>
