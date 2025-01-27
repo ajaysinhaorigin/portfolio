@@ -49,7 +49,7 @@ export const PorjectsData: ProjectsDataType[] = [
     name: "Github-Finder",
     imgUrls: uiPics.GithubFinder,
     description:
-      "Github-Finder is a plateform where you can search github users and find all the key details of there account",
+      "Github-Finder is a platform where you can search github users and find all the key details of there account",
     techlonogies:
       "ReactJs, Typescript, Tailwind CSS,Redux-Toolkit, Github REST API",
     liveUrls: "https://ajaysinhaorigin.github.io/github-finder/",
