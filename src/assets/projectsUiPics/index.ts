@@ -1,15 +1,15 @@
 import GithubFinder from './github-finder.jpeg'
 import HouseMarketplace from './house-marketplace.jpeg'
-import FeedbackApp from './feedback-app.jpeg'
-import ShopingCart from './shoping-cart.jpeg'
-import Testimonial from './testimonial.jpeg'
-import CardFeatures from './card-features.jpeg'
+import SteamifyImage from './youtube.png'
+import Sketchboard from './sketchboard.png'
+import Propertypulse from './propertypulse.png'
+import CloudStore from './cloudstore.png'
 
 export const uiPics = {
   GithubFinder,
   HouseMarketplace,
-  FeedbackApp,
-  ShopingCart,
-  Testimonial,
-  CardFeatures,
+  SteamifyImage,
+  Sketchboard,
+  Propertypulse,
+  CloudStore
 }

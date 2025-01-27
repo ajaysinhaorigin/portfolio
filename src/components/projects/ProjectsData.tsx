@@ -1,69 +1,68 @@
-import { uiPics } from '../../assets/projectsUiPics'
+import { uiPics } from "../../assets/projectsUiPics"
 
 export const PorjectsData: ProjectsDataType[] = [
   {
     id: 1,
-    name: 'Github-Finder',
-    imgUrls: uiPics.GithubFinder,
+    name: "CloudStore",
+    imgUrls: uiPics.CloudStore,
     description:
-      'Github-Finder is a plateform where you can search github users and find all the key details of there account',
+      " A modern and secure cloud storage application, designed for seamless file management and collaboration. ",
     techlonogies:
-      'ReactJs, Typescript, Tailwind CSS,Redux-Toolkit, Github REST API',
-    liveUrls: 'https://ajaysinhaorigin.github.io/github-finder/',
-    codeUrls: 'https://github.com/ajaysinhaorigin/github-finder',
+      "Next.js, Mongoose, Cloudinary, Nodemailer, ShadCN, Tailwind CSS.",
+    liveUrls: "https://cloud-store-smoky.vercel.app/",
+    codeUrls: "https://github.com/ajaysinhaorigin/cloudstore",
   },
   {
     id: 2,
-    name: 'House-Marketplace',
-    imgUrls: uiPics.HouseMarketplace,
+    name: "Property-Pulse",
+    imgUrls: uiPics.Propertypulse,
     description:
-      'Website that helps you sale your house and put it on rent.Create an account and start saling your house.',
-    techlonogies: 'ReactJs, Javascript, CSS,Firebase',
-    liveUrls: 'https://house-marketplace-psi-mocha.vercel.app/',
-    codeUrls: 'https://github.com/ajaysinhaorigin/house-marketplace',
-  },
-  {
-    id: 3,
-    name: 'Feedback-App',
-    imgUrls: uiPics.FeedbackApp,
-    description:
-      'Website that allows us to give the feedback and rating and perform all the curd operations.',
-    techlonogies: 'ReactJs, TypeScript, CSS, json-server as backend',
-    liveUrls: 'https://github.com/ajaysinhaorigin/feedback-app',
-    codeUrls: 'https://github.com/ajaysinhaorigin/feedback-app',
+      " A web application designed to assist users in finding their next rental property.  ",
+    techlonogies: "Next.js, NextAuth.js, Mongoose, Typescript, Tailwind CSS.",
+    liveUrls: "https://property-pulse-swart-eta.vercel.app/",
+    codeUrls: "https://github.com/ajaysinhaorigin/property-pulse",
   },
   {
     id: 4,
-    name: 'Shoping-Cart',
-    imgUrls: uiPics.ShopingCart,
+    name: "Sketchboard",
+    imgUrls: uiPics.Sketchboard,
     description:
-      'An eCommerce web app with product page and add to Cart functionality. work with REST API following ReactJs workflow.',
-    techlonogies: 'ReactJs, CSS, Dummy API',
-    liveUrls: 'https://ajaysinhaorigin.github.io/Shopping-Cart/',
-    codeUrls: 'https://github.com/ajaysinhaorigin/Shopping-Cart',
+      "An online drawing tool powered by Next.js, the Canvas API, and Redux for state management.",
+    techlonogies:
+      "Next.js, React.js, Typescript, Tailwind CSS, Redux-Toolkit, Canvas API.",
+    liveUrls: "https://sketchboard-eta.vercel.app/",
+    codeUrls: "https://github.com/ajaysinhaorigin/sketchboard",
+  },
+  {
+    id: 4,
+    name: "Streamify",
+    imgUrls: uiPics.SteamifyImage,
+    description:
+      "A highly scalable and efficient video streaming platform utilizing YouTubes API.",
+    techlonogies:
+      "ReactJs, Typescript, Tailwind CSS, Redux-Toolkit, Youtube REST API",
+    liveUrls: "https://youtube-origin.vercel.app/",
+    codeUrls: "https://github.com/ajaysinhaorigin/streamify",
   },
   {
     id: 5,
-    name: 'Testimonial UI',
-    imgUrls: uiPics.Testimonial,
+    name: "Github-Finder",
+    imgUrls: uiPics.GithubFinder,
     description:
-      'Its is a simple testimonial-UI.I build it from Frontend Mentor website to polish my UI designing Skill',
-    techlonogies: 'HTML5,CSS3',
-    liveUrls:
-      'https://ajaysinhaorigin.github.io/FrontendMentor--Challange/testimonials-grid-section-main/',
-    codeUrls:
-      'https://github.com/ajaysinhaorigin/FrontendMentor--Challange/tree/master/testimonials-grid-section-main',
+      "Github-Finder is a plateform where you can search github users and find all the key details of there account",
+    techlonogies:
+      "ReactJs, Typescript, Tailwind CSS,Redux-Toolkit, Github REST API",
+    liveUrls: "https://ajaysinhaorigin.github.io/github-finder/",
+    codeUrls: "https://github.com/ajaysinhaorigin/github-finder",
   },
-  {
-    id: 6,
-    name: 'Features-Card-UI',
-    imgUrls: uiPics.CardFeatures,
-    description:
-      'Its is a simple FeatureCard-UI .I build it from Frontend Mentor website to polish my UI designing Skill',
-    techlonogies: 'HTMl5,CSS3',
-    liveUrls:
-      'https://ajaysinhaorigin.github.io/FrontendMentor--Challange/four-card-feature-section-master/',
-    codeUrls:
-      'https://github.com/ajaysinhaorigin/FrontendMentor--Challange/tree/master/four-card-feature-section-master',
-  },
+  // {
+  //   id: 6,
+  //   name: "House-Marketplace",
+  //   imgUrls: uiPics.HouseMarketplace,
+  //   description:
+  //     "Website that helps you sale your house and put it on rent.Create an account and start saling your house.",
+  //   techlonogies: "ReactJs, Javascript, CSS,Firebase",
+  //   liveUrls: "https://house-marketplace-psi-mocha.vercel.app/",
+  //   codeUrls: "https://github.com/ajaysinhaorigin/house-marketplace",
+  // },
 ]
